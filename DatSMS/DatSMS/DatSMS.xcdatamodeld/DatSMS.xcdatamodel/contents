@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Dat" representedClassName="Dat" syncable="YES">
+        <attribute name="datId" optional="YES" attributeType="Integer 32" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Recipient" representedClassName="Recipient" syncable="YES">
+        <attribute name="datId" optional="YES" attributeType="Integer 32" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="fullname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="Transformable" valueTransformerName="PictureTransformer" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Dat" positionX="-36" positionY="9" width="128" height="88"/>
+        <element name="Recipient" positionX="0" positionY="72" width="128" height="105"/>
+    </elements>
+</model>
